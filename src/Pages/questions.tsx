@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Question from "../components/question";
 import { questioninter, useFetchQuery } from "../redux/service/questionapi"
